@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="840" viewBox="0 0 560 840" role="img" aria-label="Temporary vintage typographic cover mockup for The Quiet Between Us">
+<defs><linearGradient id="cover" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#53352f"/><stop offset=".55" stop-color="#34241f"/><stop offset="1" stop-color="#251d1a"/></linearGradient><linearGradient id="gold" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#a97e55"/><stop offset=".5" stop-color="#e0b887"/><stop offset="1" stop-color="#a97e55"/></linearGradient><pattern id="fibers" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M 2 7L 8 6 M 14 15L 17 19" stroke="#e6c7a1" opacity=".06"/></pattern></defs>
+<rect width="560" height="840" fill="url(#cover)"/><rect width="560" height="840" fill="url(#fibers)"/>
+<rect x="29" y="30" width="502" height="778" fill="none" stroke="url(#gold)" stroke-opacity=".77" stroke-width="1.6"/>
+<rect x="41" y="42" width="478" height="754" fill="none" stroke="#bd946f" stroke-opacity=".36"/>
+<g stroke="#caa477" fill="none" stroke-width="1.35" opacity=".65"><path d="M280 134v95m0-39c-32-30-47-45-64-55m64 73c25-30 45-46 61-54m-61 24c-8-26-24-40-31-58m31 58c11-27 23-38 38-54"/><path d="M216 135q-15-22-27-12q0 20 27 12M341 154q21-15 32-5q-9 20-32 5M249 120q-12-22-24-17q-3 18 24 17M318 124q10-24 21-17q2 16-21 17"/><path d="M280 229c5-25 18-44 33-59"/></g>
+<g fill="#e6b98b"><text x="280" y="310" text-anchor="middle" font-family="Georgia,serif" font-size="16" letter-spacing="5">A NOVEL</text>
+<text x="280" y="395" text-anchor="middle" font-family="Georgia,serif" font-size="65" font-style="italic">The Quiet</text><text x="280" y="470" text-anchor="middle" font-family="Georgia,serif" font-size="59" font-style="italic">Between Us</text></g>
+<path d="M155 505h250 M225 518h110" stroke="#b9936e" stroke-width=".8" opacity=".64"/>
+<text x="280" y="574" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="22" fill="#dec6a8">Some silences say everything.</text>
+<text x="280" y="732" text-anchor="middle" font-family="Georgia,serif" font-size="25" fill="#dfbb95" letter-spacing="2.8">ANGÉLIQUE MARONAY</text>
+<text x="280" y="772" text-anchor="middle" font-family="Georgia,serif" font-size="10" fill="#b99a77" letter-spacing="2.4">COVER PLACEHOLDER</text></svg>

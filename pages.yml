@@ -1,0 +1,88 @@
+# Pages CMS editing dashboard: https://app.pagescms.org/
+# Once this repository is connected to GitHub, edit all website content here.
+media:
+  input: site/images
+  output: /images
+
+settings:
+  content:
+    merge: true
+
+content:
+  - name: author-website
+    label: Angélique Maronay Website
+    type: file
+    path: site/content/site.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: site
+        label: Homepage and branding
+        type: object
+        fields:
+          - { name: authorName, label: Author name, type: string }
+          - { name: siteTitle, label: Browser tab title, type: string }
+          - { name: siteDescription, label: Search engine description, type: text }
+          - { name: announcement, label: Small announcement at top, type: string }
+          - { name: heroEyebrow, label: Label above headline, type: string }
+          - { name: heroImage, label: Homepage artwork, type: image }
+          - { name: heroImageAlt, label: Description of homepage artwork, type: string }
+          - { name: heroTitleFirst, label: Main headline - first line, type: string }
+          - { name: heroTitleSecond, label: Main headline - second line, type: string }
+          - { name: heroText, label: Homepage introduction, type: text }
+          - { name: heroButton, label: Book button, type: string }
+          - { name: heroSecondaryButton, label: About button, type: string }
+          - { name: heroSideNote, label: Small hero note (reserved), type: string }
+          - { name: quote, label: Full-width author quote, type: text }
+          - { name: closingSignature, label: Signature below author bio, type: string }
+      - name: book
+        label: Featured book
+        type: object
+        fields:
+          - { name: eyebrow, label: Section label, type: string }
+          - { name: title, label: Book title, type: string }
+          - { name: subtitle, label: Book tagline, type: string }
+          - { name: genre, label: Genre and themes, type: string }
+          - { name: description, label: Book description, type: text }
+          - { name: note, label: Note below description, type: text }
+          - { name: status, label: Release status, type: string }
+          - { name: coverImage, label: Final cover image (replaces placeholder), type: image, required: false }
+          - { name: purchaseUrl, label: Preorder/purchase link (optional), type: string, required: false }
+          - { name: buttonLabel, label: Book button label, type: string }
+      - name: about
+        label: About the author
+        type: object
+        fields:
+          - { name: eyebrow, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: paragraphOne, label: Paragraph 1, type: text }
+          - { name: paragraphTwo, label: Paragraph 2, type: text }
+          - { name: paragraphThree, label: Paragraph 3, type: text }
+          - { name: portraitImage, label: Author photo (optional), type: image, required: false }
+          - { name: portraitCaption, label: Photo caption, type: string }
+      - name: newsletter
+        label: Reader letters / early-interest list
+        type: object
+        fields:
+          - { name: eyebrow, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: description, label: Description, type: text }
+          - { name: buttonLabel, label: Signup button, type: string }
+          - { name: consentText, label: Consent label, type: text }
+          - { name: note, label: Note below signup, type: text }
+      - name: contact
+        label: Contact section
+        type: object
+        fields:
+          - { name: eyebrow, label: Section label, type: string }
+          - { name: heading, label: Heading, type: string }
+          - { name: description, label: Description, type: text }
+      - name: social
+        label: Social media and contact links
+        type: object
+        fields:
+          - { name: instagramUrl, label: Instagram URL (optional), type: string, required: false }
+          - { name: tiktokUrl, label: TikTok URL (optional), type: string, required: false }
+          - { name: goodreadsUrl, label: Goodreads URL (optional), type: string, required: false }
+          - { name: emailAddress, label: Public email address (optional), type: string, required: false }
