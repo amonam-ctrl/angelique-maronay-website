@@ -3,7 +3,7 @@
     "authorName": "Angélique Maronay",
     "siteTitle": "Angélique Maronay | Romance Author",
     "siteDescription": "Contemporary romance for the hearts that feel everything. Enter the world of Angélique Maronay and discover The Quiet Between Us.",
-    "announcement": "A little romance, a little ink, and a lifetime of stories",
+    "announcement": "A little romance, a little ink, and a lifetime of stories by your favorite author",
     "heroEyebrow": "ROMANCE, WRITTEN LIKE A LOVE LETTER",
     "heroTitleFirst": "Some stories",
     "heroTitleSecond": "are worth keeping.",
@@ -24,8 +24,6 @@
     "description": "Cole Hayes and Lila Bennett know what it means to love each other. But somewhere between the noise of the world and the words they couldn't say, they lost the way back. This is a story about the distance love can survive—and the courage it takes to finally be heard.",
     "note": "A first look at the story. Final book description and release details to come.",
     "status": "A NOVEL IN THE MAKING",
-    "coverImage": "",
-    "purchaseUrl": "",
     "buttonLabel": "Get book updates"
   },
   "about": {
@@ -34,7 +32,6 @@
     "paragraphOne": "I'm a Central Texas author, wife, and mother of three, with one big, fluffy dog named Daisy who has never met a moment she didn't want to be part of.",
     "paragraphTwo": "I write love stories about imperfect people, deep feelings, and the sometimes messy, always meaningful journey toward finding one another again.",
     "paragraphThree": "If you love a story that stays with you long after the last page, I hope you'll feel right at home here.",
-    "portraitImage": "",
     "portraitCaption": "A little glimpse behind the pages"
   },
   "newsletter": {
@@ -49,11 +46,5 @@
     "eyebrow": "SAY HELLO",
     "heading": "Leave me a little note.",
     "description": "A note from a reader, a question, or a collaboration idea? You can leave a message right here."
-  },
-  "social": {
-    "instagramUrl": "",
-    "tiktokUrl": "",
-    "goodreadsUrl": "",
-    "emailAddress": ""
   }
 }
