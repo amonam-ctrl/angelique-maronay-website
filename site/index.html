@@ -15,6 +15,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Parisienne&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/styles.css">
+  <style>
+    .kit-newsletter-form { max-width: 1120px; margin: 0 auto; }
+    .kit-newsletter-form > script { display: block; }
+    @media (max-width: 760px) { .kit-newsletter-form { width: 100%; } }
+  </style>
   <title>Angélique Maronay | Romance Author</title>
   <script defer src="/script.js"></script>
 </head>
@@ -26,7 +31,7 @@
       <a class="brand" href="#top" aria-label="Angélique Maronay home">Angélique <span>Maronay</span><small>ROMANCE AUTHOR</small></a>
       <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span></button>
       <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
-        <a href="#books">The books</a><a href="#about">Meet Angélique</a><a href="#letters">Love letters</a><a href="#contact" class="nav-contact">Say hello <span aria-hidden="true">↗</span></a>
+        <a href="#books">The books</a><a href="#about">Meet Angélique</a><a href="#letters">Between the Pages</a><a href="#contact" class="nav-contact">Say hello <span aria-hidden="true">↗</span></a>
       </nav>
     </div>
   </header>
@@ -85,12 +90,18 @@
       </div>
     </section>
 
-    <section class="letters-section" id="letters" aria-labelledby="letters-title">
-      <div class="container letters-layout"><div class="letters-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span><span data-content="newsletter.eyebrow">LETTERS FROM ANGÉLIQUE</span></p><h2 id="letters-title" data-content="newsletter.heading">Let's keep in touch, lovely.</h2><p data-content="newsletter.description">A little note for the romantics: book news, behind-the-scenes moments, and occasional glimpses of the stories taking shape on my desk.</p><form name="reader-letters" method="POST" action="/thank-you.html" data-netlify="true" data-netlify-honeypot="bot-field" class="letters-form"><input type="hidden" name="form-name" value="reader-letters"><p class="bot-field"><label>Leave this field empty <input name="bot-field"></label></p><label for="reader-email" class="visually-hidden">Your email address</label><div class="signup-input"><input id="reader-email" type="email" name="email" autocomplete="email" placeholder="Your email address" required maxlength="254"><button class="button button-primary" type="submit" data-content="newsletter.buttonLabel">Save me a letter</button></div><label class="consent"><input type="checkbox" name="consent" value="yes" required><span data-content="newsletter.consentText">I'd like to receive occasional book and author updates by email.</span></label><p class="form-note" data-content="newsletter.note">This is an early-interest list. Newsletter emails will begin after an email service is connected.</p></form></div><div class="envelope-scene" aria-hidden="true"><div class="envelope-letter"><span class="envelope-script">for you,</span><span class="envelope-text">a little love in<br>your inbox</span><span class="envelope-heart">♡</span></div><div class="envelope"><div class="envelope-flap"></div><div class="envelope-base"></div><div class="envelope-seal">AM</div></div><div class="small-flower">✾</div></div></div>
+    <section class="letters-section" id="letters" aria-label="Between the Pages newsletter signup">
+      <div class="container">
+        <!-- Between the Pages: Kit inline signup form. Edit its text, artwork, and button in Kit. -->
+        <div class="kit-newsletter-form">
+          <script async data-uid="cd998dfede" src="https://angelique-maronay-2.kit.com/cd998dfede/index.js"></script>
+          <noscript><p>Enable JavaScript to view the Between the Pages newsletter signup form.</p></noscript>
+        </div>
+      </div>
     </section>
 
     <section class="contact-section section-pad" id="contact" aria-labelledby="contact-title"><div class="container contact-layout"><div class="contact-copy reveal"><p class="eyebrow"><span class="eyebrow-line"></span><span data-content="contact.eyebrow">SAY HELLO</span></p><h2 id="contact-title" data-content="contact.heading">Every lovely conversation starts somewhere.</h2><p data-content="contact.description">A note from a reader, a question, or a collaboration idea? You can leave a message right here.</p><div class="contact-decoration">sent with <span>♥</span> from Texas</div></div><form name="author-contact" method="POST" action="/thank-you.html" data-netlify="true" data-netlify-honeypot="bot-field" class="contact-form reveal"><input type="hidden" name="form-name" value="author-contact"><p class="bot-field"><label>Leave this field empty <input name="bot-field"></label></p><div class="form-row"><label>Your name <input name="name" type="text" autocomplete="name" required maxlength="120" placeholder="Name"></label><label>Your email <input name="email" type="email" autocomplete="email" required maxlength="254" placeholder="Email address"></label></div><label>Your message <textarea name="message" required maxlength="5000" rows="4" placeholder="Write your note here..."></textarea></label><button type="submit" class="button button-primary">Send a little note <span aria-hidden="true">↗</span></button><p class="contact-privacy">By sending this form, you agree that your information will be used to respond to your message. <a href="/privacy.html">Privacy note</a>.</p></form></div></section>
   </main>
-  <footer class="footer"><div class="container"><div class="footer-top"><div><a class="footer-brand" href="#top">Angélique Maronay</a><p>For the love that lingers.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#books">Books</a><a href="#about">About</a><a href="#letters">Letters</a><a href="#contact">Contact</a><a href="/privacy.html">Privacy</a></nav></div><div class="social-links" aria-label="Social media"><a data-link="social.instagramUrl" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a><a data-link="social.tiktokUrl" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a data-link="social.goodreadsUrl" hidden target="_blank" rel="noopener noreferrer">Goodreads ↗</a><a data-mail="social.emailAddress" hidden>Email ↗</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> <span data-content="site.authorName">Angélique Maronay</span>. All rights reserved.</span><span>Written with love, sealed with a story. ❧</span></div></div></footer>
+  <footer class="footer"><div class="container"><div class="footer-top"><div><a class="footer-brand" href="#top">Angélique Maronay</a><p>For the love that lingers.</p></div><nav class="footer-nav" aria-label="Footer navigation"><a href="#books">Books</a><a href="#about">About</a><a href="#letters">Between the Pages</a><a href="#contact">Contact</a><a href="/privacy.html">Privacy</a></nav></div><div class="social-links" aria-label="Social media"><a data-link="social.instagramUrl" hidden target="_blank" rel="noopener noreferrer">Instagram ↗</a><a data-link="social.tiktokUrl" hidden target="_blank" rel="noopener noreferrer">TikTok ↗</a><a data-link="social.goodreadsUrl" hidden target="_blank" rel="noopener noreferrer">Goodreads ↗</a><a data-mail="social.emailAddress" hidden>Email ↗</a></div><div class="footer-bottom"><span>© <span id="year">2026</span> <span data-content="site.authorName">Angélique Maronay</span>. All rights reserved.</span><span>Written with love, sealed with a story. ❧</span></div></div></footer>
 </body>
 </html>
